@@ -3,10 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	/*	ch := make(chan struct{}, 1)
-		close(ch)
-		ch <- struct{}{}
-		close(ch)*/
+	 
 
 	ch := make(chan int)
 	done := make(chan struct{})
